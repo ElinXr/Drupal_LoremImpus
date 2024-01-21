@@ -1,0 +1,6 @@
+name: Lorem Ipsum Generator
+type: module
+description: 'Provides a Lorem Ipsum text generator.'
+package: NM custom
+core_version_requirement: ^10
+configure: nm_loremipsum.settings

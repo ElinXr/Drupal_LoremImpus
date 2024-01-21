@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file
+ * Install, uninstall and update hooks for Lorem Ipsum Generator module.
+ */
+
+use Drupal\user\RoleInterface;
+
+/**
+ * Implements hook_install().
+ */
+function nm_loremipsum_install() {
+  user_role_change_permissions(RoleInterface::AUTHENTICATED_ID, array(
+    'generate lorem ipsum' => TRUE,
+  ));
+}

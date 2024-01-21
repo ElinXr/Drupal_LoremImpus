@@ -1,0 +1,5 @@
+nm_loremipsum.settings:
+  title: 'Lorem Ipsum Generator settings'
+  description: 'Configure settings for the Lorem Ipsum Generator module.'
+  route_name: nm_loremipsum.settings
+  parent: 'system.admin_config_development'
